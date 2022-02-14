@@ -1,6 +1,4 @@
-const randomImgNumber = Math.floor(Math.random() * 8);
-const bgImg = document.createElement("img");
+const randomImgNumber = Math.floor(Math.random() * 10);
 
-bgImg.src = `../resource/img/${randomImgNumber}.jpg`;
+document.body.style.backgroundImage = `url('../resource/img/${randomImgNumber}.jpg')`;
 
-document.body.appendChild(bgImg);

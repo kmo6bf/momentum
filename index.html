@@ -10,9 +10,13 @@
 	<script type="module" defer src="js/quotes.js"></script>
 	<script type="module" defer src="js/background.js"></script>
 	<script defer src="js/todo.js"></script>
+	<script defer src="js/weather.js"></script>
 	<title>Elmo Momentum App</title>
 </head>
 <body>
+
+	<div id="interface">
+	<h2 id="clock">00:00</h2>
 
 	<form id="login-form" class="hidden">
 		<input 
@@ -21,10 +25,7 @@
 		  type="text"
 		  placeholder="What is your name?"
 		/>
-		<input type="submit" value="Log In" />
 	</form>
-
-	<h2 id="clock">00:00</h2>
 	<h1 id="greeting" class="hidden"></h1>
 
 	<form id="todo-form">
@@ -32,8 +33,15 @@
 	</form>
 	<ul id="todo-list">
 	</ul>
+</div>
 
 	<div id="quote">
+		<span></span>
+		<br/>
+		<span></span>
+	</div>
+
+	<div id="weather">
 		<span></span>
 		<span></span>
 	</div>

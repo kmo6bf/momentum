@@ -1,3 +1,91 @@
 .hidden {
   display: none;
 }
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.5;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-size: cover;
+}
+
+#clock {
+  font-size: 140px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+#login-form input {
+  width: 400px;
+  height: 70px;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#todo-form input {
+  width: 230px;
+  height: 70px;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+#greeting {
+  font-size: 50px;
+  color: white;
+}
+
+#quote {
+  margin-top: 300px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+#weather {
+  font-size: 20px;
+  color: white;
+}
+
+#todo-list {
+  font-size: 25px;
+}
+
+#interface {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
